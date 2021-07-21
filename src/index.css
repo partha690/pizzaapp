@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+background-image: url("./store/s3.jpg");
+
+}
+
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0)
+}
+#myAddress{
+  
+background-image: url("./store/lo.jpg");
+box-shadow:10px ;
+width: 700px;
+background-size: 50px;
+height: 180px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+#myPhoneNo{
+  
+  background-image: url("./store/ph.jpg");
+box-shadow:10px ;
+background-size: 50px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+#myEmail{
+background-image: url("./store/na.jpg");
+box-shadow:10px ;
+background-size: 50px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+#myName{
+  background-image: url("./store/av.jpg");
+box-shadow:10px ;
+background-size: 40px;
+background-repeat: no-repeat;
+background-position-x: right;
+}
+.col{
+  size: 50px;
+  background-color: cornsilk;
+ 
+}
+.row{
+  size: 50px;
+  background-color: rgb(202, 194, 159);
+}
+.display-1{
+  
+  background-color: rgb(167, 154, 142);
+}
